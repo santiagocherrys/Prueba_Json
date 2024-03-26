@@ -1,93 +1,46 @@
 {
-  "pueblos": [
+  "users": [
     {
-      "id": 1,
-      "nombre": "Amagá",
-      "imagen": "images/imgPueblos/amaga.jpg",
-      "audio": "Historia/Amaga.mp3",
-      "video": "/video/amaga.mp4",
-      "mapaPueblo": {
-        "latitud": 6.0404174,
-        "longitud": -75.7026932
-      },
-      "descripcion": ["<p>Amaga, conocido como Tierra de Mineros, es un municipio cercano a Medellín con una rica historia minera. Destaca por sus minas de carbón,",
-                      "la vieja ferrería y atracciones como el viaducto del Antiguo Tren.<br>",
-                      "Fundado en 1788 por Miguel Ignacio Pérez de la Calle, Amaga se erigió como municipio en 1812. Sus primeros habitantes fueron los indígenas",
-                      " homogáes. También se le conoció como Valle de las Peras y San Fernando Rey de Borbón. Los habitantes son amagacitas.</p>"],
-      "sitiosInteres":[
-        {
-          "id": 1,
-          "lugar": "Parque Principal",
-          "descripcion": ["Inicia tu viaje en el corazón mismo de Amagá, el Parque Principal Emiro Kastos. Este pintoresco oasis urbano no solo es un espacio",
-                          " verde, sino un testimonio vivo de la historia y la identidad de la comunidad. Rodeado de monumentos y esculturas que cuentan historias",
-                          " centenarias, el parque es el escenario perfecto para eventos culturales y encuentros comunitarios. Respira la serenidad de sus jardines",
-                          " y siente la autenticidad que fluye en cada rincón de este emblemático espacio."],
-           "imagen":  "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/amaga.jpg",
-           "audio": "Amaga/parquePrincipal.mp3",
-           "mapaLugar": {
-            "latitud": 6.0406637,
-            "longitud": -75.7034683
-           },
-           "ubicacion": "Parque principal Amagá Antioquia"
-           
-        },
-        {
-          "id": 2,
-          "lugar": "Casa de la cultura Belisario Betancur",
-          "descripcion":["Sumérgete en el alma creativa de Amagá en la Casa de la Cultura, un espacio dedicado a la preservación y celebración de las expresiones",
-                         " artísticas locales. Exposiciones, talleres y eventos culturales llenan este lugar de vida, convirtiéndolo en el epicentro cultural de la",
-                         " comunidad. Descubre la riqueza de la historia y la creatividad que fluye en cada manifestación cultural."],
-          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/CasaDeLaCultura.jpg",
-          "audio": "Amaga/casaDeLaCultura.mp3",
-          "mapaLugar":{
-            "latitud": 6.0401786,
-            "longitud": -75.7038947
-          },
-          "ubicacion": "Casa de la Cultura Belisartio Betancur Cuartas Amagá Antioquia"
-        },
-        {
-          "id": 3,
-          "lugar": "Chorro el Salto",
-          "descripcion":["Embárcate en una travesía hacia la naturaleza en su estado más puro en los Chorros El Salto. Aquí, las aguas cristalinas descienden entre",
-                         " rocas, creando un espectáculo visual y sonoro. Pozas naturales te invitan a sumergirte en la frescura del entorno, mientras el sonido",
-                         " relajante de las cascadas te transporta a un refugio natural que redefine la conexión con la tierra."],
-          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/ChorroElSalto.jpg",
-          "audio": "Amaga/chorroElSalto.mp3",
-          "mapaLugar":{
-            "latitud": 6.0579169,
-            "longitud": -75.6948316
-          },
-          "ubicacion": "Chorros El Salto Amagá Antioquia"
-        },
-        {
-          "id": 4,
-          "lugar": "Ecoparque Minero del Carbón",
-          "descripcion":["Viaja en el tiempo y adéntrate en la historia minera de Amagá en el fascinante Ecoparque Minero del Carbón. Este sitio temático no solo",
-                         " presenta la vida de los mineros, sino que también te invita a explorar túneles subterráneos, experimentando la dureza y la grandeza de",
-                         " esta actividad. Una experiencia educativa y envolvente que arroja luz sobre la importancia de la minería en la evolución de la región."],
-          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/EcoparqueMinero.jpg",
-          "audio": "Amaga/ecoparqueMineroDelCarbon.mp3",
-          "mapaLugar": {
-            "latitud": 6.0709625,
-            "longitud": -75.6991454
-          },
-          "ubicacion": "Ecoparque Minero del Carbón Amagá Antioquia"
-        },
-        {
-          "id": 5,
-          "lugar": "Viaducto, antigua via del  Ferrocarril",
-          "descripcion":["Explora la imponencia arquitectónica de Amagá al caminar sobre El Viaducto. Esta estructura majestuosa se eleva sobre el río Cauca,",
-                         " ofreciendo vistas panorámicas que capturan la grandeza del paisaje. Las pasarelas de este puente emblemático no solo conectan geografías,",
-                         " sino también épocas, permitiéndote caminar entre el pasado y el presente en un escenario que combina ingeniería y belleza natural."],
-          "imagen": "../images/mapaPueblos/imgCarruselMapaPueblos/Amaga/viaducto.jpg",
-          "audio": "Amaga/viaducto.mp3",
-          "mapaLugar": {
-            "latitud": 5.994363,
-            "longitud": 75.6729282
-          },
-          "ubicacion": "Viaducto Amagá Antioquia"
-        }
-      ]
+      "name": "Santi",
+      "age": "28",
+      "id": "13a8"
+    },
+    {
+      "id": "445d",
+      "name": "Jorgito",
+      "age": "27"
+    },
+    {
+      "name": "Carito",
+      "age": "29",
+      "id": "85c2"
+    },
+    {
+      "id": "6560",
+      "name": "Eyder",
+      "age": "18"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Jorge",
+      "age": 27
+    },
+    {
+      "id": "2",
+      "name": "Ana",
+      "age": 28
+    },
+    {
+      "id": "3",
+      "name": "Santi",
+      "age": 29
+    },
+    {
+      "id": "4",
+      "name": "Eyder",
+      "age": 18
     }
   ]
 }
